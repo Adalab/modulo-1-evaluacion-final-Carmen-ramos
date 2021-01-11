@@ -1,2 +1,13 @@
 @import "core/reset";
 @import "core/variables";
+
+html {
+  scroll-behavior: smooth;
+}
+//LAYOUT
+@import "layout/hero";
+@import "layout/sectiontext";
+@import "layout/sectionreasons";
+@import "layout/footer";
+
+// PAGES
