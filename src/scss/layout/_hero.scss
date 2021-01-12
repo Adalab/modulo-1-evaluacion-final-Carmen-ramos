@@ -35,3 +35,18 @@
     border-radius: 50%;
   }
 }
+
+@media all and (min-width: 768px) {
+  .herocontainer {
+    &__tittle {
+      font-size: 80px;
+      line-height: 1.33px;
+      margin-bottom: 25px;
+    }
+    &__paragrhap {
+      margin-top: 30px;
+      font-size: 24px;
+      padding-bottom: 5px;
+    }
+  }
+}

@@ -36,20 +36,28 @@
     grid-row: 3/4;
   }
 }
-.reason.buttom {
-  width: 76px;
+.reason__buttom {
+  width: 200px;
   height: 45px;
-  padding: 20px;
+  margin-bottom: 60px;
   border: 3px solid $colorbuttoms;
   border-radius: 22.5px;
-  background-color: red;
+  background-color: $colorbuttoms;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   &:hover {
     background-color: #faac58;
     transition: all ease 5s;
+  }
+  &--link {
+    font-size: 20px;
+    line-height: 2.25;
+    font-weight: 500;
+    font-family: $font-second;
+    text-align: center;
+    color: $colortext;
   }
 }
 
