@@ -1,21 +1,53 @@
 .section1 {
-  @include Centermargin();
-}
-.section__text {
+  margin: 30px 15px;
+  text-transform: capitalize;
+  font-family: $font-main;
   text-align: left;
 }
-.section__text--buttom {
-  height: 25px;
-  width: 45;
-  border-radius: 150px;
-  background-color: $colorbuttoms;
-  color: $colortext;
-  text-decoration: none;
-  :hover {
-    background-color: $colortext;
-    color: $colorbuttoms;
+
+.article {
+  &__tittle2 {
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: $colorh2main;
   }
-}
-.buttom-go {
-  text-decoration: none;
+
+  &__title3 {
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__paragraph {
+    padding-bottom: 30px;
+    text-transform: none;
+    font-family: $font-second;
+    font-weight: normal;
+    color: $colortextP;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+
+  &__buttom {
+    width: 76px;
+    height: 45px;
+    padding: 20px;
+    border: 3px solid $colorbuttoms;
+    border-radius: 22.5px;
+    background-color: $colortext;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: #faac58;
+    }
+
+    &--link {
+      color: $colorbuttoms;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 2.25;
+    }
+  }
 }
