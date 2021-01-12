@@ -1,7 +1,31 @@
 .footer {
   width: 100%;
   background-color: $colorBackgroundfooter;
-  &_menu {
-    color: white;
+  color: $colortext;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+.footmenu__sections {
+  text-align: center;
+  padding-bottom: 30px;
+}
+/*
+.footmenu__section--links {
+  padding: 0 10px;
+  color: $colortext;
+  text-decoration: none;*/
+
+.footmenu__section--item {
+  font-family: $font-second;
+}
+
+.footerend {
+  text-align: center;
+  .fa-heart {
+    color: red;
   }
 }

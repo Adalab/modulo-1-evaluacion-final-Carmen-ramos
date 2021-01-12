@@ -1,0 +1,21 @@
+.section1 {
+  @include Centermargin();
+}
+.section__text {
+  text-align: left;
+}
+.section__text--buttom {
+  height: 25px;
+  width: 45;
+  border-radius: 150px;
+  background-color: $colorbuttoms;
+  color: $colortext;
+  text-decoration: none;
+  :hover {
+    background-color: $colortext;
+    color: $colorbuttoms;
+  }
+}
+.buttom-go {
+  text-decoration: none;
+}

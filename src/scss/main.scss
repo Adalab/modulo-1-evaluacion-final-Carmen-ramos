@@ -1,12 +1,14 @@
+@import "components/code";
 @import "core/reset";
 @import "core/variables";
+@import "components/mixins";
 
-html {
+.html {
   scroll-behavior: smooth;
 }
 //LAYOUT
 @import "layout/hero";
-@import "layout/sectiontext";
+@import "layout/section1";
 @import "layout/sectionreasons";
 @import "layout/footer";
 
