@@ -1,29 +1,44 @@
 .footer {
   width: 100%;
   background-color: $colorBackgroundfooter;
-  color: $colortext;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-transform: uppercase;
-  padding-top: 60px;
   padding-bottom: 45px;
-}
-.footmenu__sections {
-  text-align: center;
-  padding-bottom: 30px;
+
+  &__icon {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colortext;
+    border-radius: 50%;
+  }
 }
 
-.footmenu__section--links {
-  padding: 0 10px;
-  color: $colortext;
-  text-decoration: none;
-}
-.footmenu__section--item {
-  font-family: $font-second;
+.footmenu {
+  &__sections {
+    text-align: center;
+    padding-bottom: 30px;
+    color: $colortext;
+    &--links {
+      padding: 0 10px;
+      text-decoration: none;
+      color: $colortext;
+      font-family: $font-second;
+      line-height: 1.88;
+    }
+
+    &--items {
+    }
+  }
 }
 
 .footerend {
+  color: $colortext;
+  text-transform: lowercase;
   text-align: center;
   .fa-heart {
     color: $colorbuttoms;
