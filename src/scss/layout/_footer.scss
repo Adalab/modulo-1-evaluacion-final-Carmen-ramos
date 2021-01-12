@@ -8,6 +8,7 @@
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 45px;
+  position: relative;
 
   &__icon {
     height: 45px;
@@ -44,5 +45,31 @@
   text-align: center;
   .fa-heart {
     color: $colorbuttoms;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    &__icon {
+      position: absolute;
+      top: 0;
+      left: 50%;
+    }
+  }
+  .footmenu {
+    padding: 0 10%;
+    background-color: blueviolet;
+    margin: 45px 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    &__sections {
+    }
+  }
+  .social {
+    margin-left: 25px;
   }
 }
