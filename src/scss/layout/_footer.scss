@@ -7,7 +7,7 @@
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   position: relative;
 
   &__icon {
@@ -62,14 +62,22 @@
   .footmenu {
     padding: 0 10%;
     background-color: blueviolet;
-    margin: 45px 39px;
+    /*margin: 45px 39px;*/
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    &__sections {
-    }
+    justify-content: list-separator(#list);
+    align-items: left;
   }
   .social {
-    margin-left: 25px;
+    text-align: left;
+  }
+  .list {
+    text-align: left;
+    align-content: right;
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer {
+    padding: 45px 370px;
   }
 }
