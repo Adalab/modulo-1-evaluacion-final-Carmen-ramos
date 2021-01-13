@@ -1,7 +1,10 @@
+//COMPONENTS
+@import "components/mixins";
 @import "components/code";
+
+//CORE
 @import "core/reset";
 @import "core/variables";
-@import "components/mixins";
 
 //LAYOUT
 @import "layout/header";

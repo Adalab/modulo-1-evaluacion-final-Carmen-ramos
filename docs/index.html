@@ -16,8 +16,7 @@
     <header class="header">
         <nav class="header__menu">
             <a class="header__menu--img" href="https://adalab.es/"> <img class="imgheader"
-                    src="./assets/images/ico-menu.svg" href="" alt=" icono nav fijo"
-                    title="redirige a la home page de Adalab">
+                    src="./assets/images/ico-menu.svg" href="" alt=" icono nav fijo" title="redirige a la home de Adalab">
                 </img></a>
         </nav>
     </header>
@@ -27,7 +26,10 @@
       <section class="hero">
 
           <div class="herocontainer">
-              <h1 class="herocontainer__tittle">Anonymous proxy</h1>
+              <h1 class="herocontainer__tittle">
+                  <span class="herocontainer__tittle--item">Anonymous</span>
+                  <span class="herocontainer__tittle--item">proxy</span>
+              </h1>
               <p class="herocontainer__paragrhap">In hac habitasse platea dictumst.</p>
 
               <a class="herocontainer__scrolldowm" href="#section__reasons"> <img class="herocontainer__scrolldowm--img"
@@ -36,7 +38,7 @@
           </div>
       </section>
 
-      <section class="section1">
+      <section class="sectionInsomnia">
         <article class="article">
           <h2 class="article__tittle2"> Insomnia tips</h2>
           <h3 class="article__title3">Looking trough a window
@@ -51,53 +53,80 @@
         </article>
       </section>
 
-      <section id="section__reasons">
-          <h2 class=section__reason--title>3 Reason to purchase</h2>
+      <section id="section__reasons" class="section-reasons">
+          <h2 class=section-title>3 Reason to purchase</h2>
 
-          <div class="section__reason--descrip">
-              <h3 class=descrip__title">Ut sed metus</h3>
-              <p>>Lorem ipsum dolor sit, amet consectetur.</p>
-          </div>
+          <div class="Article-Container">
 
-          <div class="section__reason--descrip">
-              <h3 class=descrip__title> Curabitur ac erat</h3>
-              <p>Mauris mattis urna quis lorem molestie.</p>
+              <article class=" article1">
+                  <h3 class="article1-title">Ut sed metus</h3>
+                  <p class=>Lorem ipsum dolor sit, amet consectetur.</p>
+              </article>
 
-              <div class="section__reason--descrip">
-                  <h3 class=descrip__title> Morbi dictum</h3>
+
+              <article class=" article2">
+                  <h3 class=article2-tittle> Curabitur acerat</h3>
+                  <p>Mauris mattis urna quis lorem molestie.</p>
+              </article>
+
+
+              <article class=" article3">
+                  <h3 class="article3-tittle"> Morbi dictum</h3>
                   <p>Aliquam in dolor et dolor tincidunt</p>
-                  More reasons
+              </article>
+          </div>
+          <div class="reason__buttom">
+              <a class="reason__buttom--link" href="" text>More reasons </a>
+          </div>
       </section>
     </main>
 
     <footer class="footer">
-      <img class="footer__scrollup" href="/assets/images/ico-arrow.svg"><a href="" alt="icono flecha hacia arriba"
-        title="icono redirige al inicio de la página"></a>
-      <nav class="footmenu">
-        <ul class="footmenu__sections">
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Articles</a>
-          </li>
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Books</a>
-          </li>
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Events</a>
-          </li>
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Reasons</a>
-          </li>
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Tips</a>
-          </li>
-        </ul>
-        <ul class="footmenu__sections social">
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Twitter</a>
-          </li>
-          <li class="footmenu__sections--items"><a href="https://adalab.es/" class="footmenu__sections--links">Instagram</a>
-          </li>
-          <li class="footmenu__social--items"><a href="https://adalab.es/"
-              class="footmenu__sections--links">Mastodon.social</a></li>
-        </ul>
-      </nav>
-      <div class="footerend">
-        <small class="footerend__copy">&copy;2021</small>
-        <p class="footerend__paragraph">we <i class="fa fa-heart" aria-hidden="true"></i> components</p>
+      <a class="footer__icon" href="index.html">
+        <img class="imgfooter" src="./assets/images/ico-arrow.svg" alt=" icono con una flecha hacia arriba"
+          title="redirige al index de la página">
+      </a>
+
+      <div class="footer-Container">
+        <nav class="menuSections">
+          <ul class="menuSections__list ">
+            <li class="menuSections__list--items">
+              <a href="https://adalab.es/" class="menuSections__list--links">Articles</a>
+            </li>
+            <li class="menuSections__list--items">
+              <a href="https://adalab.es/" class="menuSections__list--links">Books</a>
+            </li>
+            <li class="menuSections__list--items">
+              <a href="https://adalab.es/" class="menuSections__list--links">Events</a>
+            </li>
+            <li class="menuSections__list--items">
+              <a href="https://adalab.es/" class="menuSections__list--links">Reasons</a>
+            </li>
+            <li class="menuSections__list--items">
+              <a href="https://adalab.es/" class="menuSections__list--links">Tips</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="menuSocial">
+          <ul class="menuSocial__list">
+            <li class="menuSocial__list--items">
+              <a href="https://adalab.es/" class="menuSocial__list--links">Twitter</a>
+            </li>
+            <li class="menuSocial__sections--items">
+              <a href="https://adalab.es/" class="menuSocial__list--links">Instagram</a>
+            </li>
+            <li class="menuSocial__social--items">
+              <a href="https://adalab.es/" class="menuSocial__list--links">Mastodon.social</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footerend">
+          <small class="footerend__copy">&copy;2021</small>
+          <p class="footerend__paragraph">
+            we <i class="fa fa-heart" aria-hidden="true"></i> components
+          </p>
+        </div>
       </div>
     </footer>
   </div>

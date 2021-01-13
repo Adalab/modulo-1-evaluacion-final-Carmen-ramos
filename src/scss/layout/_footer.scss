@@ -1,83 +1,3 @@
-/*
-
-.footer {
-  width: 100%;
-  background-color: $colorBackgroundfooter;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  position: relative;
-
-  &__icon {
-    height: 45px;
-    width: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $colortext;
-    border-radius: 50%;
-    transform: translate(0, -50%);
-  }
-}
-
-.footmenu {
-  &__sections {
-    padding-bottom: 30px;
-    color: $colortext;
-    &--links {
-      padding: 0 10px;
-      text-decoration: none;
-      color: $colortext;
-      font-family: $font-second;
-      line-height: 1.88;
-    }
-
-    &--items {
-    }
-  }
-}
-
-.footerend {
-  color: $colortext;
-  text-transform: lowercase;
-  text-align: center;
-  .fa-heart {
-    color: $colorbuttoms;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .footer {
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    &__icon {
-      position: absolute;
-      top: 0;
-      left: 50%;
-    }
-  }
-  .footmenu {
-    padding: 0 10%;
-    background-color: blueviolet;
-    /*margin: 45px 39px;
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-  }
-  
-}
-@media all and (min-width: 1200px) {
-  .footer {
-    padding: 45px 370px;
-  }
-}
-*/
-
 .footer {
   width: 100%;
   background-color: $colorBackgroundfooter;
@@ -90,7 +10,6 @@
     justify-content: center;
     align-items: center;
     background-color: $colortext;
-    border: 2px solid $colorshadow opacity;
     border-radius: 50%;
     position: absolute;
     left: 50%;

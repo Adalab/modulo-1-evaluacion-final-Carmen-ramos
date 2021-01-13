@@ -26,15 +26,6 @@
   font-family: $font-second;
   font-size: 18px;
   line-height: 1.67;
-  /*.article1 {
-    grid-row: 1/2;
-  }
-  .article2 {
-    grid-row: 2/3;
-  }
-  .article3 {
-    grid-row: 3/4;
-  }*/
 }
 .reason__buttom {
   width: 200px;
@@ -47,10 +38,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  &:hover {
-    background-color: #faac58;
-    transition: all ease 5s;
-  }
+
   &--link {
     font-size: 20px;
     line-height: 2.25;
@@ -58,6 +46,11 @@
     font-family: $font-second;
     text-align: center;
     color: $colortext;
+    transition: all 5s ease;
+    &:hover {
+      font-size: 25px;
+      color: $colorh2main;
+    }
   }
 }
 
