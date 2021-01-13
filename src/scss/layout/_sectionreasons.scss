@@ -1,5 +1,5 @@
 #section__reasons {
-  scroll-margin-top: 105px;
+  scroll-margin-top: 5px;
 }
 
 .section-reasons {
@@ -26,7 +26,7 @@
   font-family: $font-second;
   font-size: 18px;
   line-height: 1.67;
-  .article1 {
+  /*.article1 {
     grid-row: 1/2;
   }
   .article2 {
@@ -34,7 +34,7 @@
   }
   .article3 {
     grid-row: 3/4;
-  }
+  }*/
 }
 .reason__buttom {
   width: 200px;
@@ -63,4 +63,21 @@
 
 .containertex {
   text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .Article-Container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 45px;
+  }
+  .reason__buttom {
+    width: 210px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .reason__buttom {
+    width: 255px;
+  }
 }

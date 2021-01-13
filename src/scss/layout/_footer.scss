@@ -1,3 +1,5 @@
+/*
+
 .footer {
   width: 100%;
   background-color: $colorBackgroundfooter;
@@ -62,22 +64,93 @@
   .footmenu {
     padding: 0 10%;
     background-color: blueviolet;
-    /*margin: 45px 39px;*/
+    /*margin: 45px 39px;
     display: flex;
     flex-direction: row;
-    justify-content: list-separator(#list);
     align-items: left;
   }
-  .social {
-    text-align: left;
-  }
-  .list {
-    text-align: left;
-    align-content: right;
-  }
+  
 }
 @media all and (min-width: 1200px) {
   .footer {
     padding: 45px 370px;
+  }
+}
+*/
+
+.footer {
+  width: 100%;
+  background-color: $colorBackgroundfooter;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  position: relative;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;*/
+  &__icon {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $colortext;
+    border-radius: 50%;
+    transform: translate(0, -50%);
+  }
+}
+.footer_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuSections {
+  &__list {
+    padding-bottom: 30px;
+    color: $colortext;
+    &--links {
+      padding: 0 10px;
+      text-decoration: none;
+      color: $colortext;
+      font-family: $font-second;
+      line-height: 1.88;
+    }
+  }
+}
+
+.menuSocial {
+  &__list {
+    padding-bottom: 30px;
+    color: $colortext;
+    &--links {
+      padding: 0 10px;
+      text-decoration: none;
+      color: $colortext;
+      font-family: $font-second;
+      line-height: 1.88;
+    }
+  }
+}
+
+.footerend {
+  color: $colortext;
+  text-transform: lowercase;
+  text-align: center;
+  .fa-heart {
+    color: $colorbuttoms;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .footer {
+    padding: 45px 370px;
+  }
+  .footer_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: left;
   }
 }
