@@ -2,7 +2,6 @@
   margin: 30px 15px;
   text-transform: capitalize;
   font-family: $font-main;
-  text-align: left;
 }
 
 .article {
@@ -10,6 +9,7 @@
     padding-bottom: 5px;
     font-size: 14px;
     color: $colorh2main;
+    text-align: center;
     /*line-height: 2.14;*/
   }
 
@@ -40,12 +40,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     &:hover {
       background-color: #faac58;
       transition: all ease 5s;
     }
 
     &--link {
+      padding: 5px;
       color: $colorbuttoms;
       font-size: 20px;
       font-weight: 500;
@@ -68,9 +70,9 @@
     &__paragraph {
       font-size: 20px;
     }
-    &__buttom {
+    /* &__buttom {
       width: 91px;
-    }
+    }*/
   }
 }
 
@@ -85,9 +87,9 @@
     &__title3 {
       font-size: 32px;
     }
-
+    /*
     &__buttom {
       width: 160px;
-    }
+    }*/
   }
 }
