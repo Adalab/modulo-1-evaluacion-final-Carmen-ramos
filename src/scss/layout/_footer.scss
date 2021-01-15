@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: $colorBackgroundfooter;
+  background-color: $colorheadernav;
   text-transform: uppercase;
   position: relative;
   &__icon {
@@ -28,12 +28,12 @@
 
 .menuSections {
   &__list {
-    padding-bottom: 30px;
-    color: $colortext;
+    padding-bottom: 45px;
+    color: black;
     &--links {
       padding: 0 10px;
       text-decoration: none;
-      color: $colortext;
+      color: black;
       font-family: $font-second;
       line-height: 1.88;
     }
@@ -42,12 +42,12 @@
 
 .menuSocial {
   &__list {
-    padding-bottom: 30px;
-    color: $colortext;
+    padding-bottom: 45px;
+    color: black;
     &--links {
       padding: 0 10px;
       text-decoration: none;
-      color: $colortext;
+      color: black;
       font-family: $font-second;
       line-height: 1.88;
     }
@@ -57,6 +57,11 @@
 .footerend {
   color: $colortext;
   text-transform: lowercase;
+  &__paragraph {
+    &--text {
+      color: $colorbuttoms;
+    }
+  }
   .fa-heart {
     color: $colorbuttoms;
   }
@@ -73,17 +78,16 @@
 
     .menuSections {
       width: 210px;
-      order: 2;
+
       text-align: left;
     }
     .menuSocial {
       width: 210px;
-      order: 3;
+
       text-align: left;
     }
     .footerend {
       width: 210px;
-      order: 1;
     }
   }
 }
